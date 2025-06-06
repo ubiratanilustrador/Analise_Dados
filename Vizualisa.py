@@ -1,10 +1,10 @@
 '''
 Primeiro programa panda
 '''
+# Importa a biblioteca Pandas
+import pandas as pd 
 
-import pandas as pd  # Importa a biblioteca Pandas
-
-# Carrega dados de um arquivo CSV
+# Carrega dados de um arquivo de planilha de dados
 df = pd.read_excel("dados_comercio.ods")
 
 # Exibe as primeiras linhas do DataFrame
